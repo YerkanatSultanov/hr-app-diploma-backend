@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+database:
+  host: "localhost"
+  port: 5432
+  user: "postgres"
+  password: "postgres"
+  dbname: "hr-app-db"
+  sslmode: "disable"
+
+auth_service:
+  address: "localhost:50051"

@@ -1,0 +1,22 @@
+# Бинарные файлы Go
+*.exe
+*.out
+*.test
+*.bin
+
+# Кэш Go
+/go/pkg/
+**/vendor/
+**/bin/
+**/debug/
+
+auth-service/config/config.yaml
+user-service/config/config.yaml
+
+.idea/
+*.iml
+
+*.log
+*.tmp
+**/logs/
+**/temp/
